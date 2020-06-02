@@ -3178,3 +3178,9 @@ input::-webkit-input-placeholder {
 .about-us {
     transform: translateY(-6%);
 }
+
+
+/* custom styles */
+#scroll-top{
+    margin-right: 5em;
+}
