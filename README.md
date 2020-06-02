@@ -15,7 +15,7 @@ $ git clone https://github.com/qet-devs/qet.git
 
 
 ### Run
-http://localhost/qet/
+https://qet-devs.github.io/qet/products.html
 
 
 ### Test
