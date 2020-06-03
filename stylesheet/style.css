@@ -59,6 +59,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,caption,
     outline: 0;
     background: transparent
 }
+.project-thumbnail,
+.project-item{
+  position: relative;
+  overflow: hidden;
+}
+
+.project-item:hover .project-thumbnail:after{ opacity: 1}
+
+.project-content{
+  bottom: -220px;
+  height: 100%;
+  left: 0;
+  padding: 30px;
+  position: absolute;
+  z-index: 9;
+  opacity: .95
+}
+
+.project-item:hover .project-content{
+  bottom: 0;
+}
+
+
 
 article,
 aside,
