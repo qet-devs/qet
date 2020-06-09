@@ -26,7 +26,42 @@
     <link rel="stylesheet" href="rev-slider/css/layers.css">
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
-
+    <style>
+        .dropbtn {
+          background-color: ;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color:;}
+        </style>
    
 </head>
 
@@ -77,29 +112,35 @@
                         <nav id="mainnav" class="mainnav">
                             <ul class="menu">
                                 <li>
-                                    <a href="index.html" >Home</a>
+                                    <a href="index.html" class="">Home</a>
                                 </li>
                                 <li>
-                                    <a href="aboutus.html"class="active">About Us</a>
+                                    <a href="products.html">Our Solutions</a>
                                 </li>
                                 <li>
-
-                                    <a href="services.html">our Services</a>
+                                    <div class="dropdown">
+                                         <a href="#services.html">Custom Work</a>
+                                        <div class="dropdown-content">
+                                            <a href="https://qet-devs.github.io/qafya_website/" target="_blank">Hospital management system</a>
+                                            <a href="https://qet-devs.github.io/qshulesite/" target="_blank">School Managemebt System</a>
+                                            <a href="https://qet-devs.github.io/qbizinsta/" target="_blank">Business management system</a>
+                                        </div>
+                                      </div>
                                 </li>
                                 <li>
-                                    <a href="products.html">Our Products</a>
+                                    <a href="aboutus.html">About Us</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="team.html">Our Team</a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a href="contact.html">Contact Us</a>
-                                </li>                                         
+                                </li>                                          -->
                             </ul>                                   
                         </nav>
                     </div>
                     <div class="flat-appointment btn-linear hv-linear-gradient">
-                        <a href="#" class="font-style linear-color border-corner">Let’s get started</a>
+                        <a href="contact.html" class="font-style linear-color border-corner">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +208,193 @@
             </div>
             
         </div>
-    </div><!-- flat-it-services-banking -->
+    </div>
+    <!-- Team start -->
+    <br><br>
+    <div class="title-section text-center">
+        <h2 class="flat-title">Our Team</h2>
+    </div>
+    <div class="flat-it-services flat-it-services-style4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/2.jpg" alt="images" >
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">System Engineer</a></h3>
+                            <div class=""><a href="#">Prince Munene<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/3.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">System Architect</a></h3>
+                            <div class=""><a href="#">Alex Mbaka<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/christine2.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Accountant</a></h3>
+                            <div class=""><a href="#">Christine Makena<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/ogera.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">HOD Sales & Marketing</a></h3>
+                            <div class=""><a href="#">Bonface Ongera<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/hilda.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Sales and Marketing</a></h3>
+
+                            <div class=""><a href="#">Hilder kithinji<span class=""></span></a></div>
+                      
+                        </div>
+                    </div>
+                </div> 
+               
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/mike.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Network Support Staff</a></h3>
+                            <div class=""><a href="#">Michael Mwangi<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/kevo.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Technical and <br> IT Support</a></h3>
+                            <div class=""><a href="#">Kelvin Obed<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/sam.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Technical and <br> IT Support</a></h3>
+                            <div class=""><a href="#">Sam Odera<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/joan.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Secretary</a></h3>
+                            <div class=""><a href="#">Joan Ruguru<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/izo.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Software Developer</a></h3>
+                            <div class=""><a href="#">Isaac Ng'eno<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/deno.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Software Developer</a></h3>
+                            <div class=""><a href="#">Denis Githinji<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service-image-box2 hv-background-before">
+                        <div class="order-number">.</div>
+                        <div class="featured-post">
+                            <div class="">
+                                <img src="images/team-member/connie.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="content-service">
+                            <h3 class="title"><a href="#">Software Developer</a></h3>
+                            <div class=""><a href="#">Constance Cherono<span class=""></span></a></div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- Team end -->
+    <!-- flat-it-services-banking -->
     <div class="fact-type1">
         <div class="container justify-content-lg-between justify-content-center d-flex flex-lg-nowrap flex-wrap">
             <div class="counter counter-type3">
@@ -208,11 +435,9 @@
             </div>
         </div>
     </div><!-- fact -->
-    <div class="partners partners-style3">
+    <!-- <div class="partners partners-style3">
         <div class="container">
-            <div class="title-section text-center">
-                <!-- <h2 class="flat-title">Many others partners<br> our global clients here</h2> -->
-            </div>
+            
             <div class="banners-z">
                 <div class="flat-carousel-box data-effect clearfix" data-zero="0" data-gap="70" data-column="6" data-column2="5" data-column3="4" data-column4="2" data-dots="false" data-auto="true" data-nav="false" data-loop="true">
                     <div class="owl-carousel">
@@ -220,13 +445,13 @@
                         <img src="images/partners/shule.jpg" alt="images">
                         <img src="images/partners/kodi.jpg" alt="images">
                         <img src="images/partners/biz.jpg" alt="images">
-                        <img src="images/partners/shule2.jpg" alt="images">
-                        <!-- <img src="images/partners/#flier.jpg" alt="images">                         -->
+                        <img src="images/partners/shule2.jpg" alt="images">                     -->
                     </div>
                 </div>
             </div>
         </div>
-    </div><!-- partners -->
+    </div> -->
+    <!-- partners -->
     <div class="cta">
         <div class="container">
             <div class="row align-items-center">
@@ -257,27 +482,33 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="mg-widget-mobi">
-                            <h3 class="widget widget-title">Our Portifolios &nbsp&nbsp&nbsp&nbsp Services</h3>
+                            <h3 class="widget widget-title">Our Solutions</h3>
                             <div class="widget-services d-sm-flex">
                                 <ul class="one-half first">
-                                    <li><a href="#">Q-Afya</a></li>
-                                    <li><a href="#">Q-Biz</a></li>
-                                    <li><a href="#">Q-Kodi</a></li>
-                                    <li><a href="#">Q-Shule</a></li>
-                                    <li><a href="#">Q-Sacco</a></li>
-                                    <li><a href="#">Q-Hoteli</a></li>
-                                    <li><a href="#">Q-Bima</a></li>
-                                    <li><a href="#">Q-Sheria</a></li>
-                                    <li><a href="#">Q-Clinic</a></li>
+                                    <li><a href="products.html">Q-Afya</a></li>
+                                    <li><a href="products.html">Q-Biz</a></li>
+                                    <li><a href="products.html">Q-Kodi</a></li>
+                                    <li><a href="products.html">Q-Shule</a></li>
+                                    <li><a href="products.html">Q-Sacco</a></li>
+                                    <!-- <li><a href="products.html">Q-Hoteli</a></li>
+                                    <li><a href="products.html">Q-Bima</a></li>
+                                    <li><a href="products.html">Q-Sheria</a></li>
+                                    <li><a href="products.html">Q-Clinic</a></li> -->
                                     
                                 </ul>
                                 <ul class="one-half second">
-                                    <li><a href="#">Enterprise Information System</a></li>
-                                    <li><a href="#">Web and mobile development</a></li>
-                                    <li><a href="#">IT and Support Desk</a></li>
-                                    <li><a href="#">Business process automation</a></li>
-                                    <li><a href="#">Computer Engineering</a></li>
-                                    <li><a href="#">ICT Consultants</a></li>
+                                    <li><a href="products.html">Q-Hoteli</a></li>
+                                    <li><a href="products.html">Q-Bima</a></li>
+                                    <li><a href="products.html">Q-Sheria</a></li>
+                                    <li><a href="products.html">Q-Clinic</a></li>
+                                    <li><a href="products.html">Q-Elearning</a></li>
+
+                                    <!-- <li><a href="ptf.html">Enterprise Information System</a></li>
+                                    <li><a href="services.html#">Web and mobile development</a></li>
+                                    <li><a href="services.html">IT and Support Desk</a></li>
+                                    <li><a href="services.html">Business process automation</a></li>
+                                    <li><a href="services.html">Computer Engineering</a></li>
+                                    <li><a href="services.html">ICT Consultants</a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -319,7 +550,7 @@
                 </div>
             </div>
         </div>
-        <a id="scroll-top" class="show" ></a>
+        <a id="scroll-top" class="show"></a>
     </footer><!-- footer -->
 
     <script src="javascript/jquery.min.js"></script>
@@ -358,12 +589,9 @@
 <!-- <script type="text/javascript">
     (function () {
         var options = {
-            facebook: "1629986620602076", // Facebook page ID
-            whatsapp: " +1 (800) 123-45-67", // WhatsApp number
+            facebook: "332494283518755", // Facebook page ID
             call_to_action: "Message us", // Call to action
-            button_color: "#129BF4", // Color of button
             position: "right", // Position may be 'right' or 'left'
-            order: "facebook,whatsapp", // Order of buttons
         };
         var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
