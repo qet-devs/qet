@@ -26,7 +26,42 @@
     <link rel="stylesheet" href="rev-slider/css/layers.css">
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
-
+    <style>
+        .dropbtn {
+          background-color: ;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color:;}
+        </style>
    
 </head>
 
@@ -77,29 +112,35 @@
                         <nav id="mainnav" class="mainnav">
                             <ul class="menu">
                                 <li>
-                                    <a href="index.html" class="active">Home</a>
+                                    <a href="index.html" class="">Home</a>
+                                </li>
+                                <li>
+                                    <a href="products.html">Our Solutions</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                         <a href="#services.html">Custom Work</a>
+                                        <div class="dropdown-content">
+                                            <a href="https://qet-devs.github.io/qafya_website/" target="_blank">Hospital management system</a>
+                                            <a href="https://qet-devs.github.io/qshulesite/" target="_blank">School Managemebt System</a>
+                                            <a href="https://qet-devs.github.io/qbizinsta/" target="_blank">Business management system</a>
+                                        </div>
+                                      </div>
                                 </li>
                                 <li>
                                     <a href="aboutus.html">About Us</a>
                                 </li>
-                                <li>
-
-                                    <a href="services.html">Our Services</a>
-                                </li>
-                                <li>
-                                    <a href="products.html">Our Products</a>
-                                </li>
-                                <li>
+                                <!-- <li>
                                     <a href="team.html">Our Team</a>
-                                </li>
-                                <li>
+                                </li> -->
+                                <!-- <li>
                                     <a href="contact.html">Contact Us</a>
-                                </li>                                         
+                                </li>                                          -->
                             </ul>                                   
                         </nav>
                     </div>
                     <div class="flat-appointment btn-linear hv-linear-gradient">
-                        <a href="#" class="font-style linear-color border-corner">Let’s get started</a>
+                        <a href="contact.html" class="font-style linear-color border-corner">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -740,7 +781,6 @@
         <div class="container">
             <div class="title-section text-center">
                 <h2 class="flat-title">Services</h2>
-                <!-- <h2 class="flat-title">What says our<br> honorable customers!</h2> -->
             </div>
     <div class="flat-it-services flat-it-services-style4">
         <div class="container">
@@ -868,7 +908,7 @@
             <div class="container">
                 <div class="title-section text-center">
                     <p class="sub-title">Software Products</p>
-                    <h2 class="flat-title text-white">Business Management processes made Easy</h2>
+                    <h2 class="flat-title text-white">Business management processes made easy</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay="200ms">
@@ -981,7 +1021,7 @@
                         <div class="flat-spacer" data-desktop="112" data-sdesktop="112" data-mobi="0" data-smobi="0"></div>
                         <span class="icon-support"></span>
                         <ul class="contact-details">
-                            <li>+254 0700 017 017</li>
+                            <li>+2547 00 017 017</li>
                             <li>info@qet.co.ke</li>
                         </ul>
                         <div class="text">
@@ -1031,7 +1071,7 @@
                              </div>
                             <div class="s-text text-white">Make A Difference With our Team</div>
                             <div class="flat-contact-now btn-linear hv-linear-gradient">
-                                <a href="team.html" class="font-style linear-color border-corner">Team<span class="icon-arrow-pointing-to-right"></span></a>
+                                <a href="aboutus.html" class="font-style linear-color border-corner">Team<span class="icon-arrow-pointing-to-right"></span></a>
                             </div>
                         </div>
                         <div class="circle-border circle-border1 none-767"></div>
@@ -1052,27 +1092,35 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="mg-widget-mobi">
-                            <h3 class="widget widget-title">Our Portifolios &nbsp&nbsp&nbsp&nbsp Services</h3>
+                            <h3 class="widget widget-title">Our Solutions</h3>
                             <div class="widget-services d-sm-flex">
                                 <ul class="one-half first">
-                                    <li><a href="products.html">Q-Afya</a></li>
-                                    <li><a href="products.html">Q-Biz</a></li>
-                                    <li><a href="products.html">Q-Kodi</a></li>
-                                    <li><a href="products.html">Q-Shule</a></li>
-                                    <li><a href="products.html">Q-Sacco</a></li>
+                                    <li><a href="products.html">Hospital Management Information system</a></li>
+                                    <li><a href="products.html">Business management information System</a></li>
+                                    <li><a href="products.html">Property management information system</a></li>
+                                    <li><a href="products.html">School management information system</a></li>
+                                    <li><a href="products.html">Sacco management information system</a></li>
+                                    <li><a href="products.html">Hotel management information system</a></li>
+                                    <li><a href="products.html">Elearning management information system</a></li>
+                                    <!-- <li><a href="products.html">Q-Hoteli</a></li>
+                                    <li><a href="products.html">Q-Bima</a></li>
+                                    <li><a href="products.html">Q-Sheria</a></li>
+                                    <li><a href="products.html">Q-Clinic</a></li> -->
+                                    
+                                </ul>
+                                <!-- <ul class="one-half second">
                                     <li><a href="products.html">Q-Hoteli</a></li>
                                     <li><a href="products.html">Q-Bima</a></li>
                                     <li><a href="products.html">Q-Sheria</a></li>
                                     <li><a href="products.html">Q-Clinic</a></li>
-                                    
-                                </ul>
-                                <ul class="one-half second">
-                                    <li><a href="ptf.html">Enterprise Information System</a></li>
+                                    <li><a href="products.html">Q-Elearning</a></li> -->
+
+                                    <!-- <li><a href="ptf.html">Enterprise Information System</a></li>
                                     <li><a href="services.html#">Web and mobile development</a></li>
                                     <li><a href="services.html">IT and Support Desk</a></li>
                                     <li><a href="services.html">Business process automation</a></li>
                                     <li><a href="services.html">Computer Engineering</a></li>
-                                    <li><a href="services.html">ICT Consultants</a></li>
+                                    <li><a href="services.html">ICT Consultants</a></li> -->
                                 </ul>
                             </div>
                         </div>

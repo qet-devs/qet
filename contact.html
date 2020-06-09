@@ -26,7 +26,42 @@
     <link rel="stylesheet" href="rev-slider/css/layers.css">
     <link rel="stylesheet" href="rev-slider/css/navigation.css">
     <link rel="stylesheet" href="rev-slider/css/settings.css">
-
+    <style>
+        .dropbtn {
+          background-color: ;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #ddd;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color:;}
+        </style>
    
 </head>
 
@@ -77,28 +112,35 @@
                         <nav id="mainnav" class="mainnav">
                             <ul class="menu">
                                 <li>
-                                    <a href="index.html" >Home</a>
+                                    <a href="index.html" class="">Home</a>
+                                </li>
+                                <li>
+                                    <a href="products.html">Our Solutions</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                         <a href="#services.html">Custom Work</a>
+                                        <div class="dropdown-content">
+                                            <a href="https://qet-devs.github.io/qafya_website/" target="_blank">Hospital management system</a>
+                                            <a href="https://qet-devs.github.io/qshulesite/" target="_blank">School Managemebt System</a>
+                                            <a href="https://qet-devs.github.io/qbizinsta/" target="_blank">Business management system</a>
+                                        </div>
+                                      </div>
                                 </li>
                                 <li>
                                     <a href="aboutus.html">About Us</a>
                                 </li>
-                                <li>
-                                    <a href="services.html">Our Services</a>
-                                </li>
-                                <li>
-                                    <a href="products.html" >Our Products</a>
-                                </li>
-                                <li>
+                                <!-- <li>
                                     <a href="team.html">Our Team</a>
-                                </li>
-                                <li>
-                                    <a href="contact.html" class="active">Contact Us</a>
-                                </li>                                         
+                                </li> -->
+                                <!-- <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>                                          -->
                             </ul>                                   
                         </nav>
                     </div>
                     <div class="flat-appointment btn-linear hv-linear-gradient">
-                        <a href="#" class="font-style linear-color border-corner">Let’s get started</a>
+                        <a href="contact.html" class="font-style linear-color border-corner">Contact Us</a>
                     </div>
                 </div>
             </div>
