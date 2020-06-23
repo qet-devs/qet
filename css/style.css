@@ -2905,6 +2905,9 @@ p.modal-footer {
   .social-language{
     text-align: center;margin-bottom: 15px;
   }
+  .head{
+    font-size: 5x;
+  }
   .heading-title {
     font-size: 28px;
     line-height: 38px;
